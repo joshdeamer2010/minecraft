@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.hero .btn {
+  background-color: #f39c12;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.featured-mods {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.mod-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.mod-card {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+}
+
+.mod-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.checkout form, .contact form {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.checkout form input, .checkout form select, .contact form input, .contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.checkout .btn, .contact .btn {
+  background-color: #f39c12;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.checkout .btn:hover, .contact .btn:hover {
+  background-color: #e67e22;
+}
